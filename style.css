@@ -1,7 +1,28 @@
 @font-face {
   font-family: "Raleway";
+  src: url(./fonts/Raleway-Black.ttf);
+  font-weight: 900;
+  font-style: normal;
+  font-display: auto;
+}
+@font-face {
+  font-family: "Raleway";
   src: url(./fonts/Raleway-ExtraBold.ttf);
   font-weight: 800;
+  font-style: normal;
+  font-display: auto;
+}
+@font-face {
+  font-family: "Raleway";
+  src: url(./fonts/Raleway-Medium.ttf);
+  font-weight: 500;
+  font-style: normal;
+  font-display: auto;
+}
+@font-face {
+  font-family: "PlayfairDisplay";
+  src: url(./fonts/PlayfairDisplay-Black.ttf);
+  font-weight: 900;
   font-style: normal;
   font-display: auto;
 }
@@ -20,6 +41,9 @@ input {
   outline: none;
   border: none;
   font-family: "Raleway";
+}
+button {
+  cursor: pointer;
 }
 a {
   text-decoration: none;
@@ -95,6 +119,51 @@ body {
   max-width: 109rem;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /* align-items: center; */
+}
+.hero {
+  background: url(./assets/photo\ hero.svg) no-repeat right center;
+  margin: 10rem 0;
+  height: 38rem;
+}
+.content-hero {
+  max-width: 49rem;
+}
+.title-hero {
+  font-family: "PlayfairDisplay";
+  font-weight: 900;
+  font-size: 5.9rem;
+  line-height: 7.1rem;
+  margin-top: 1rem;
+}
+.desc-hero {
+  font-weight: 500;
+  font-size: 1.9rem;
+  line-height: 2.6rem;
+  font-weight: 500;
+  margin-top: 2.5rem;
+}
+.btns-hero {
+  width: 45rem;
+  margin-top: 3.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+.btn-hero {
+  flex: 1;
+  font-weight: 900;
+  font-size: 2.1rem;
+  line-height: 2.5rem;
+  padding: 2rem 0;
+  border: 3px solid #4ba87d;
+}
+.btn-try {
+  background-color: #4ba87d;
+  color: #fff;
+}
+.btn-demo {
+  margin-left: 4.5rem;
+  background-color: #fff;
+  color: #4ba87d;
 }
 /* *footer */

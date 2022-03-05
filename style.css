@@ -1,3 +1,12 @@
+@font-face {
+  font-family: "Raleway";
+  src: url(./fonts/Raleway-ExtraBold.ttf);
+  font-weight: 800;
+  font-style: normal;
+  font-display: auto;
+}
+
+/* * css reset */
 * {
   padding: 0;
   margin: 0;
@@ -10,9 +19,11 @@ button,
 input {
   outline: none;
   border: none;
+  font-family: "Raleway";
 }
 a {
   text-decoration: none;
+  color: #000;
 }
 ul,
 ol {
@@ -24,5 +35,66 @@ body {
   max-width: 144rem;
   font-size: 1.6rem;
   color: #000;
-  background-color: #e5e5e5;
+  font-family: "Raleway";
+  background-color: #fff;
+  margin: 0 auto;
 }
+/* *header */
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.2rem;
+}
+.wrapper-header {
+  width: 100%;
+  max-width: 128rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.box-logo {
+  padding-top: 1rem;
+}
+.nav-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-menu {
+  display: flex;
+  align-items: center;
+}
+.main-menu li {
+  margin-left: 2.2rem;
+}
+.main-menu li a {
+  padding: 1rem 1.5rem 0.5rem 1.5rem;
+  border-bottom: 5px solid #4ba87d;
+  font-size: 1.7rem;
+  line-height: 2rem;
+  font-weight: 800;
+  letter-spacing: 1.275px;
+}
+.main-menu .sign-up {
+  background-color: #4ba87d;
+  color: #fff;
+}
+/* *main */
+.main {
+  background-image: url(./assets/BG\ stuff.svg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper-main {
+  width: 100%;
+  max-width: 109rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* *footer */

@@ -137,7 +137,6 @@ body {
 }
 .title-hero {
   font-family: "PlayfairDisplay";
-  font-weight: 900;
   font-size: 5.9rem;
   line-height: 7.1rem;
   margin-top: 1rem;
@@ -194,7 +193,6 @@ body {
 }
 .title-video {
   font-family: "PlayfairDisplay";
-  font-weight: 900;
   font-size: 6rem;
   line-height: 8rem;
   color: #fff;
@@ -244,7 +242,6 @@ body {
 
 .box-content-blog h2 {
   font-family: "PlayfairDisplay";
-  font-weight: 900;
   font-size: 4.4rem;
   line-height: 4.8rem;
 }
@@ -301,7 +298,6 @@ body {
 .text-people {
   max-width: 90rem;
   font-family: "PlayfairDisplay";
-  font-weight: 900;
   font-size: 4.4rem;
   line-height: 4.8rem;
   text-align: center;
@@ -360,18 +356,19 @@ body {
   flex-direction: column;
   margin: 7.5rem 0 15rem;
 }
-.brands-wrapper pre {
+.brands-wrapper p {
+  width: 50rem;
   text-align: center;
   font-family: "PlayfairDisplay";
-  font-weight: 900;
   font-size: 4.4rem;
   line-height: 4.8rem;
+  margin: 0 auto;
 }
 .brands-logo {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 3rem;
+  margin-top: 4rem;
 }
 /* *get start */
 .get-start {
@@ -386,7 +383,6 @@ body {
   text-align: center;
   color: #fff;
   font-family: "PlayfairDisplay";
-  font-weight: 900;
   font-size: 6rem;
   line-height: 8rem;
   margin-bottom: 4rem;

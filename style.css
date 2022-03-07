@@ -377,12 +377,14 @@ body {
   letter-spacing: 1.05px;
   font-size: 2.1rem;
   line-height: 2.5rem;
-  padding: 2rem 2.5rem;
+  padding: 1.6rem 2.5rem;
   transition: all 0.4s ease;
+  border: 4px solid transparent;
 }
 .btn-join-us:hover {
   background-color: #fff;
   color: #4ba87d;
+  border: 4px solid #4ba87d;
 }
 .message {
   font-weight: 500;
@@ -532,6 +534,168 @@ body {
 .nav-copy-right ul li:hover a {
   color: #4ba87d;
 }
+/* ?Tablet */
+@media screen and (max-width: 1100px) {
+  .logo {
+    width: 17rem;
+    height: 5rem;
+  }
+  .main-menu li {
+    margin-left: 1rem;
+  }
+  .main-menu li a {
+    padding: 0.6rem 1rem 0.3rem 1rem;
+    border-bottom: 3px solid #4ba87d;
+    font-size: 1.1rem;
+    line-height: 1.3rem;
+  }
+  .btn-sign-up {
+    margin-left: 1.5rem;
+  }
+  .btn-sign-up .sign-up {
+    padding: 0.6rem 1rem 0.3rem 1rem;
+    border-bottom: 3px solid #4ba87d;
+    font-size: 1.1rem;
+    line-height: 1.3rem;
+  }
+  .hero {
+    padding: 0 3rem;
+    background-size: 80%;
+    margin: 5rem 8rem;
+  }
+  .content-hero {
+    max-width: 32rem;
+  }
+  .title-hero {
+    font-size: 3.8rem;
+    line-height: 4.6rem;
+    margin-top: 1rem;
+  }
+  .desc-hero {
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    margin-top: 2.5rem;
+  }
+  .btns-hero {
+    width: 30rem;
+  }
+  .btn-hero {
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+    padding: 1.5rem 0;
+  }
+  .btn-demo {
+    margin-left: 3rem;
+  }
+  .title-video {
+    font-size: 3.8rem;
+    line-height: 5.1rem;
+    margin-bottom: 4rem;
+  }
+  .btn-video {
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+    padding: 1.5rem 2.4rem;
+  }
+  .blog {
+    padding: 0 2rem 10rem;
+  }
+  .box-cart {
+    margin-right: 3rem;
+  }
+  .box-cart img {
+    max-width: 100%;
+  }
+  .desc-cart {
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    padding: 1.7rem 2rem;
+  }
+  .learn-more {
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    padding: 0 2rem;
+  }
+  .box-content-blog h2 {
+    font-size: 2.8rem;
+    line-height: 3.1rem;
+  }
+  .box-content-blog p {
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+  }
+  .box-people img {
+    max-width: 23rem;
+  }
+  .title-people {
+    font-size: 2.2rem;
+    line-height: 2.6rem;
+  }
+  .status-people {
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+  }
+  .text-people {
+    max-width: 55rem;
+    font-size: 2.8rem;
+    line-height: 3.6rem;
+  }
+  .join-us {
+    width: 44rem;
+  }
+  .input-join-us {
+    margin-right: 1.5rem;
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+    padding: 1.2rem 1.5rem;
+  }
+  .btn-join-us {
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+    padding: 0.8rem 1.5rem;
+    border: 4px solid transparent;
+  }
+  .message {
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+    margin-top: 1rem;
+    padding-left: 1.5rem;
+  }
+  .brands-wrapper p {
+    width: 30rem;
+    font-size: 2.8rem;
+    line-height: 3.6rem;
+  }
+  .get-start h2 {
+    font-size: 4.2rem;
+    line-height: 5.6rem;
+  }
+  .btn-get-start {
+    padding: 1.3rem 2.5rem;
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+  }
+  .navigation ul {
+    margin-left: 4rem;
+  }
+  .navigation ul li {
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    margin-bottom: 1rem;
+  }
+  .footer-detail a img {
+    width: 13.5rem;
+    height: 3.5rem;
+  }
+  .text-copy-right {
+    font-size: 1rem;
+    line-height: 1.9rem;
+  }
+  .nav-copy-right ul li a {
+    font-size: 1rem;
+    line-height: 1.1rem;
+  }
+}
 
 /* *Responsive Design */
 /* ?Mobile */
@@ -660,8 +824,9 @@ body {
   .btn-join-us {
     font-size: 1.3rem;
     line-height: 1.5rem;
-    padding: 1.2rem 2rem;
+    padding: 0.8rem 2rem;
     margin-top: 2rem;
+    border: 4px solid transparent;
   }
   .message {
     font-size: 1.2rem;
@@ -757,166 +922,5 @@ body {
   }
   .nav-copy-right ul li {
     margin-left: 0;
-  }
-}
-/* ?Tablet */
-@media screen and (max-width: 1100px) {
-  .logo {
-    width: 17rem;
-    height: 5rem;
-  }
-  .main-menu li {
-    margin-left: 1rem;
-  }
-  .main-menu li a {
-    padding: 0.6rem 1rem 0.3rem 1rem;
-    border-bottom: 3px solid #4ba87d;
-    font-size: 1.1rem;
-    line-height: 1.3rem;
-  }
-  .btn-sign-up {
-    margin-left: 1.5rem;
-  }
-  .btn-sign-up .sign-up {
-    padding: 0.6rem 1rem 0.3rem 1rem;
-    border-bottom: 3px solid #4ba87d;
-    font-size: 1.1rem;
-    line-height: 1.3rem;
-  }
-  .hero {
-    padding: 0 3rem;
-    background-size: 80%;
-    margin: 5rem 8rem;
-  }
-  .content-hero {
-    max-width: 32rem;
-  }
-  .title-hero {
-    font-size: 3.8rem;
-    line-height: 4.6rem;
-    margin-top: 1rem;
-  }
-  .desc-hero {
-    font-size: 1.2rem;
-    line-height: 1.6rem;
-    margin-top: 2.5rem;
-  }
-  .btns-hero {
-    width: 30rem;
-  }
-  .btn-hero {
-    font-size: 1.3rem;
-    line-height: 1.5rem;
-    padding: 1.5rem 0;
-  }
-  .btn-demo {
-    margin-left: 3rem;
-  }
-  .title-video {
-    font-size: 3.8rem;
-    line-height: 5.1rem;
-    margin-bottom: 4rem;
-  }
-  .btn-video {
-    font-size: 1.3rem;
-    line-height: 1.5rem;
-    padding: 1.5rem 2.4rem;
-  }
-  .blog {
-    padding: 0 2rem 10rem;
-  }
-  .box-cart {
-    margin-right: 3rem;
-  }
-  .box-cart img {
-    max-width: 100%;
-  }
-  .desc-cart {
-    font-size: 1.2rem;
-    line-height: 1.6rem;
-    padding: 1.7rem 2rem;
-  }
-  .learn-more {
-    font-size: 1.2rem;
-    line-height: 1.4rem;
-    padding: 0 2rem;
-  }
-  .box-content-blog h2 {
-    font-size: 2.8rem;
-    line-height: 3.1rem;
-  }
-  .box-content-blog p {
-    font-size: 1.2rem;
-    line-height: 1.6rem;
-  }
-  .box-people img {
-    max-width: 23rem;
-  }
-  .title-people {
-    font-size: 2.2rem;
-    line-height: 2.6rem;
-  }
-  .status-people {
-    font-size: 1.2rem;
-    line-height: 1.4rem;
-  }
-  .text-people {
-    max-width: 55rem;
-    font-size: 2.8rem;
-    line-height: 3.6rem;
-  }
-  .join-us {
-    width: 44rem;
-  }
-  .input-join-us {
-    margin-right: 1.5rem;
-    font-size: 1.3rem;
-    line-height: 1.5rem;
-    padding: 1.2rem 1.5rem;
-  }
-  .btn-join-us {
-    font-size: 1.3rem;
-    line-height: 1.5rem;
-    padding: 1.2rem 1.5rem;
-  }
-  .message {
-    font-size: 1.3rem;
-    line-height: 1.5rem;
-    margin-top: 1rem;
-    padding-left: 1.5rem;
-  }
-  .brands-wrapper p {
-    width: 30rem;
-    font-size: 2.8rem;
-    line-height: 3.6rem;
-  }
-  .get-start h2 {
-    font-size: 4.2rem;
-    line-height: 5.6rem;
-  }
-  .btn-get-start {
-    padding: 1.3rem 2.5rem;
-    font-size: 1.3rem;
-    line-height: 1.5rem;
-  }
-  .navigation ul {
-    margin-left: 4rem;
-  }
-  .navigation ul li {
-    font-size: 1.2rem;
-    line-height: 1.4rem;
-    margin-bottom: 1rem;
-  }
-  .footer-detail a img {
-    width: 13.5rem;
-    height: 3.5rem;
-  }
-  .text-copy-right {
-    font-size: 1rem;
-    line-height: 1.9rem;
-  }
-  .nav-copy-right ul li a {
-    font-size: 1rem;
-    line-height: 1.1rem;
   }
 }

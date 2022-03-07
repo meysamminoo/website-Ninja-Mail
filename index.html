@@ -11,11 +11,13 @@
     <header class="header">
       <section class="wrapper-header">
         <div class="box-logo">
-          <img
-            src="./assets/NinjaMail Logo.svg"
-            alt="logo ninja mail"
-            class="logo"
-          />
+          <a href="#">
+            <img
+              src="./assets/NinjaMail Logo.svg"
+              alt="logo ninja mail"
+              class="logo"
+            />
+          </a>
         </div>
         <nav class="nav-header">
           <ul class="main-menu">
@@ -111,14 +113,17 @@
             before.
           </p>
           <section class="join-us">
-            <input
-              type="text"
-              placeholder="Enter your email"
-              class="input-join-us"
-            />
+            <div class="input">
+              <input
+                type="text"
+                placeholder="Enter your email"
+                class="input-join-us"
+              />
+              <span class="message success-email">Thanks! Email received.</span>
+              <span class="message error-email">Could not empty field !</span>
+            </div>
             <button class="btn-join-us">JOIN OUR LIST</button>
           </section>
-          <span class="success-email">Thanks! Email received.</span>
         </section>
       </section>
     </main>
@@ -144,7 +149,10 @@
     <footer class="footer">
       <section class="footer-wrapper">
         <section class="footer-detail">
-          <img src="./assets/NinjaMail Logo.svg" alt="logo ninja mail" />
+          <a href="#">
+            <img src="./assets/NinjaMail Logo.svg" alt="logo ninja mail" />
+          </a>
+
           <section class="navigation">
             <ul>
               <li><a href="#">Features</a></li>
@@ -194,5 +202,7 @@
         </section>
       </section>
     </footer>
+
+    <script src="./main.js"></script>
   </body>
 </html>

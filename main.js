@@ -16,10 +16,8 @@ function clickHandler() {
   if (inputJoinUs.value === "" || !inputJoinUs.value) {
     errorInput.style.display = "block";
     errorInput.style.visibility = "visible";
-    setTimeout(() => {
-      errorInput.style.display = "none";
-      errorInput.style.visibility = "hidden";
-    }, 3000);
+    errorInput.style.opacity = "1 ";
+    clearMessage();
   }
 
   const regEXEmail =
@@ -27,12 +25,19 @@ function clickHandler() {
   if (inputJoinUs.value.match(regEXEmail)) {
     successInput.style.display = "block";
     successInput.style.visibility = "visible";
-    errorInput.style.display = "none";
-    errorInput.style.visibility = "hidden";
+    clearMessage();
   } else {
     errorInput.style.display = "block";
     errorInput.style.visibility = "visible";
+    clearMessage();
+  }
+}
+
+function clearMessage() {
+  setTimeout(() => {
+    errorInput.style.display = "none";
+    errorInput.style.visibility = "hidden";
     successInput.style.display = "none";
     successInput.style.visibility = "hidden";
-  }
+  }, 3000);
 }

@@ -60,9 +60,12 @@ ul,
 ol {
   list-style: none;
 }
+img {
+  max-width: 100%;
+}
 body {
   min-height: 100vh;
-  min-width: 37.5rem;
+  min-width: 32rem;
   font-size: 1.6rem;
   color: #000;
   font-family: "Raleway";
@@ -114,11 +117,22 @@ body {
   background-color: #4ba87d;
   color: #fff;
 }
-.main-menu .sign-up {
+.btn-sign-up {
+  margin-left: 2.2rem;
+}
+.btn-sign-up .sign-up {
+  padding: 1rem 1.5rem 0.5rem 1.5rem;
+  border-bottom: 5px solid #4ba87d;
+  font-size: 1.7rem;
+  line-height: 2rem;
+  font-weight: 800;
+  letter-spacing: 1.275px;
+  display: block;
+  transition: all 0.4s ease;
   background-color: #4ba87d;
   color: #fff;
 }
-.main-menu .sign-up:hover {
+.btn-sign-up:hover .sign-up {
   background-color: #fff;
   color: #4ba87d;
 }
@@ -155,7 +169,6 @@ body {
   font-weight: 500;
   font-size: 1.9rem;
   line-height: 2.6rem;
-  font-weight: 500;
   margin-top: 2.5rem;
 }
 .btns-hero {
@@ -518,4 +531,239 @@ body {
 }
 .nav-copy-right ul li:hover a {
   color: #4ba87d;
+}
+
+/* *Responsive Design */
+/* ?Mobile */
+@media screen and (max-width: 767px) {
+  body {
+    width: 100%;
+  }
+  .main-menu {
+    display: none;
+  }
+  .logo {
+    width: 15rem;
+    height: 5rem;
+  }
+  .btn-sign-up .sign-up {
+    display: block;
+    font-size: 1.1rem;
+    line-height: 1.3rem;
+    padding: 0.6rem 1rem;
+    border-bottom: none;
+  }
+  .main {
+    background-size: 400%;
+    background-repeat: no-repeat;
+  }
+  .hero {
+    margin: 0;
+    background-size: 100%;
+    background-position: center 30%;
+    padding: 0 1rem;
+  }
+  .title-hero {
+    font-size: 3.6rem;
+    line-height: 4.6rem;
+  }
+  .desc-hero {
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    margin-top: 10rem;
+  }
+  .btns-hero {
+    width: 100%;
+  }
+  .btn-hero {
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+    padding: 1rem 0;
+  }
+  .btn-demo {
+    margin-left: 1rem;
+  }
+  .video {
+    margin: 1rem 0 2rem;
+    padding: 1rem;
+  }
+  .title-video {
+    font-size: 2.2rem;
+    line-height: 2.9rem;
+  }
+  .btn-video {
+    font-size: 1rem;
+    line-height: 1.2rem;
+    padding: 0.8rem 1rem;
+  }
+  .blog {
+    padding: 1rem;
+    flex-direction: column;
+    margin-bottom: 3rem;
+  }
+  .box-cart {
+    width: 30rem;
+    margin: 0;
+    margin-bottom: 2rem;
+  }
+  .box-content-blog h2 {
+    font-size: 2.8rem;
+    line-height: 3.1rem;
+  }
+  .box-content-blog p {
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+  }
+  .customer {
+    padding: 1rem;
+  }
+  .people {
+    flex-direction: column;
+    padding: 2rem;
+  }
+  .box-people {
+    margin: 0;
+    margin-bottom: 2rem;
+  }
+  .title-people {
+    font-size: 2.2rem;
+    line-height: 2.6rem;
+    margin-bottom: 0.5rem;
+  }
+  .status-people {
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+  }
+  .text-people {
+    font-size: 2.6rem;
+    line-height: 3.6rem;
+    padding: 0 2rem;
+    margin: 0;
+  }
+  .join-us {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+  }
+  .input {
+    width: 100%;
+    padding: 0 2rem;
+  }
+  .input-join-us {
+    margin-right: 0;
+    font-size: 1.4rem;
+    line-height: 1.3rem;
+    padding: 1.4rem;
+  }
+  .btn-join-us {
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+    padding: 1.2rem 2rem;
+    margin-top: 2rem;
+  }
+  .message {
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    margin-top: 0.8rem;
+    padding-left: 0;
+    text-align: center;
+  }
+  .brands {
+    padding: 1rem;
+  }
+  .brands-wrapper {
+    margin: 3rem 0;
+  }
+  .brands-wrapper p {
+    width: 32rem;
+    font-size: 2.6rem;
+    line-height: 3.6rem;
+  }
+  .brands-logo {
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    justify-content: center;
+  }
+  .brands-logo img {
+    margin: 2rem;
+  }
+  .get-start {
+    padding: 4rem 2rem;
+  }
+  .get-start h2 {
+    font-size: 4.2rem;
+    line-height: 4.8rem;
+    margin-bottom: 4rem;
+  }
+  .btn-get-start {
+    padding: 1.3rem 2.3rem;
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+  }
+  .footer {
+    padding: 1rem;
+  }
+  .footer-detail {
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 3rem 0;
+  }
+  .footer-detail a img {
+    width: 13.5rem;
+    height: 3.5rem;
+  }
+  .navigation {
+    display: grid;
+    grid-template: auto auto / auto auto;
+  }
+  .navigation ul {
+    margin-bottom: 1rem;
+  }
+  .service {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+  .pages {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+  .social {
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+  .contact {
+    grid-column: 2/3;
+    grid-row: 2/3;
+  }
+  .navigation ul li {
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    margin-bottom: 1rem;
+  }
+  .copy-right {
+    flex-direction: column;
+    padding: 2rem 1rem;
+  }
+  .text-copy-right {
+    font-size: 1rem;
+    line-height: 1.9rem;
+  }
+  .nav-copy-right {
+    width: 100%;
+  }
+  .nav-copy-right ul {
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 2rem 0;
+  }
+  .nav-copy-right ul li {
+    margin-left: 0;
+  }
+  .nav-copy-right ul li a {
+    font-size: 1rem;
+    line-height: 1.1rem;
+  }
 }

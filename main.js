@@ -19,7 +19,7 @@ function clickHandler() {
     setTimeout(() => {
       errorInput.style.display = "none";
       errorInput.style.visibility = "hidden";
-    }, 2000);
+    }, 3000);
   }
 
   const regEXEmail =

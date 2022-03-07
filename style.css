@@ -139,7 +139,7 @@ body {
 /* *main */
 .main {
   width: 100%;
-  background-image: url(./assets/BG\ stuff.svg);
+  background-image: url(./assets/BG\ stuff.png);
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -152,7 +152,7 @@ body {
   flex-direction: column;
 }
 .hero {
-  background: url(./assets/photo\ hero.svg) no-repeat right center;
+  background: url(./assets/hero\ photo.png) no-repeat right center;
   margin: 11rem 0 14rem;
   height: 38rem;
 }
